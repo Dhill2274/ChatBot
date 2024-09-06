@@ -49,7 +49,7 @@ def acceptable_data(body):
         return False
     elif len(body) > 1000:
         return False
-    elif body == '[Deleted]' or body == '[removed]':
+    elif body == '[deleted]' or body == '[removed]':
         return False
     else:
         return True
